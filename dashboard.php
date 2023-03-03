@@ -217,7 +217,7 @@
                                 </div>                             
                                 <div class="widget-data">
                                     <div class="widget-int num-count">About</div>                                   
-                                    <div class="widget-title">Designed and Develope By Karan Soni</div>
+                                    <div class="widget-title">Designed and Developed By Mudassir</div>
                                 </div>      
                                 
                             </div>                            
