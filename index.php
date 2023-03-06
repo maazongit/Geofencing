@@ -12,11 +12,11 @@ session_start();
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4c38b3bc58.js"></script>
-    
-    
+
+
 </head>
 
 <body>
@@ -56,30 +56,34 @@ session_start();
         <!---main form div--->
     </center>
     <!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-  <div class="modal-dialog">
-  
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-body" style="padding-top:0;">
-      <div class="row" style="background-color:#d9534f;padding:20px;">
-      <center><img src="images/cross.png" width="100px" height="100px" alt=""></center>
-      </div>
-      <div class="message">
-          <center><h2>Oh snap!</h2></center>
-      </div>
-      <div class="message">
-          <center><h4 style="color:#ccc;">Your username or password wrong</h4></center>
-      </div>
-      </div>
-      <div class="modal-footer">
-        <center><button type="button" style="border-radius:40px;width:250px;" class="btn-danger" data-dismiss="modal">OK</button></center>
-      </div>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body" style="padding-top:0;">
+                    <div class="row" style="background-color:#d9534f;padding:20px;">
+                        <center><img src="images/cross.png" width="100px" height="100px" alt=""></center>
+                    </div>
+                    <div class="message">
+                        <center>
+                            <h2>Oh snap!</h2>
+                        </center>
+                    </div>
+                    <div class="message">
+                        <center>
+                            <h4 style="color:#ccc;">Your username or password wrong</h4>
+                        </center>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <center><button type="button" style="border-radius:40px;width:250px;" class="btn-danger" data-dismiss="modal">OK</button></center>
+                </div>
+            </div>
+
+        </div>
     </div>
-    
-  </div>
-</div>
-  
+
 
 </body>
 <script>
@@ -105,12 +109,9 @@ if (isset($_POST["go"])) {
         header("Location: ./dashboard.php");
     } else {
 ?>
-
-
         <script>
             $('#myModal').modal('show');
         </script>
-
 <?php
     }
 }

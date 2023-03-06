@@ -3,10 +3,9 @@
         <script type="text/javascript" src="./admin/js/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="./admin/js/plugins/jquery/jquery-ui.min.js"></script>
         <script type="text/javascript" src="./admin/js/plugins/bootstrap/bootstrap.min.js"></script>  
-<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
 <!-- CSS -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/>		
-        <!-- END PLUGINS -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/><!-- END PLUGINS -->
 
         <!-- START THIS PAGE PLUGINS-->        
         <script type="text/javascript" src="./admin/js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>

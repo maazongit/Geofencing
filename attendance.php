@@ -31,11 +31,11 @@
     success=(pos)=>{
         coordinates.lat=pos.coords.latitude;
         coordinates.lng=pos.coords.longitude;
-          checkStatus();                
+        checkStatus();                
     }
 
     error=(err)=> {
-         console.warn(`ERROR(${err.code}): ${err.message}`);
+        console.warn(`ERROR(${err.code}): ${err.message}`);
     }
 
     var options = {
