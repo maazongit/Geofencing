@@ -146,7 +146,7 @@ function getLastInsertCheckInId($userId)
     }
 }
 
-//getTotlalEmployee
+//getTotalEmployee
 function getTotalMessage($empId)
 {
     include "./db.php";

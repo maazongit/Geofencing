@@ -15,8 +15,6 @@ session_start();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4c38b3bc58.js"></script>
-
-
 </head>
 
 <body>
@@ -33,7 +31,6 @@ session_start();
                         <div class="form-group">
                             <label style="color:#fafafa"><i class="fa fa-user-circle"></i> Email </label>
                             <input type="email" name="emp_email" id="emp_email" class="form-control" placeholder="Employee ID" autocomplete="off" autofocus required>
-
                         </div>
 
                         <div class="form-group">
